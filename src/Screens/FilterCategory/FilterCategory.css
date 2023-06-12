@@ -1,0 +1,26 @@
+.category_btn{
+    padding: 0.5em 1em;
+    margin-right: 1em;
+    border: 1px solid ;
+    background: var(--color);
+    color: var(--background-color);
+}
+.category_btn:hover{
+    background: var(--background-color);
+    color: var(--color);
+}
+.filter_category_container{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+}
+.filter_category_entries{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.filter_category_entry{
+    width: calc(50% - 2em);
+}

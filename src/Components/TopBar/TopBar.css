@@ -1,0 +1,10 @@
+.topbar{
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid var(--color);
+}
+.topbar_content{
+    display: flex;
+    width: 100%;
+    padding: 2em;
+}
